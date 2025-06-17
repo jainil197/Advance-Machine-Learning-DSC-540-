@@ -65,3 +65,43 @@ Develop and compare machine learning models to accurately classify human activit
 - **NumPy** - Numerical computing
 - **Matplotlib/Seaborn** - Data visualization
 
+### 📁 Project Structure
+
+├── data/ # Sensor data files
+│ ├── mHealth_subject1.csv # Subject 1 data
+│ ├── mHealth_subject2.csv # Subject 2 data
+│ └── ... # Additional subject files
+├── Mhealth.ipynb # Main analysis notebook
+├── Jainilkumar_AML_PROJECT.pdf # Project report
+├── Jainil_Project_Proposal.pdf # Project proposal
+└── README.md # This file
+
+
+### 🚀 Getting Started
+
+#### Prerequisites
+```bash
+pip install pandas scikit-learn xgboost shap numpy matplotlib seaborn scipy
+```
+
+#### Running the Analysis
+1. Clone this repository
+2. Install required packages
+3. Open `Mhealth.ipynb` in Jupyter Notebook/Lab
+4. Run all cells to reproduce the analysis
+
+### 🔍 Key Findings
+- Ankle sensors showed the highest importance for activity classification
+- Statistical features (mean, RMS) were most discriminative
+- Feature selection maintained performance while reducing complexity
+- Both Random Forest and XGBoost achieved comparable results
+
+### 👤 Author
+**Jainil Kumar**  
+DePaul University - DSC 540 Advanced Machine Learning
+
+### 📄 License
+This project is for academic purposes as part of the DSC 540 course.
+
+
+*For detailed methodology and results, please refer to the project report and Jupyter notebook.*
