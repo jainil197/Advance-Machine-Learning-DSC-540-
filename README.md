@@ -68,12 +68,15 @@ Develop and compare machine learning models to accurately classify human activit
 ### 📁 Project Structure
 
 ├── data/ # Sensor data files
-│ ├── mHealth_subject1.csv # Subject 1 data
-│ ├── mHealth_subject2.csv # Subject 2 data
-│ └── ... # Additional subject files
+
+  │ ├── mHealth_subject1.csv # Subject 1 data
+  │ ├── mHealth_subject2.csv # Subject 2 data
+  │ └── ... # Additional subject files
+
 ├── Mhealth.ipynb # Main analysis notebook
+
 ├── Jainilkumar_AML_PROJECT.pdf # Project report
-├── Jainil_Project_Proposal.pdf # Project proposal
+
 └── README.md # This file
 
 
